@@ -1,0 +1,21 @@
+Revision history for Perl module Lingua::EN::Parse::PersonsName
+
+0.01 Thu Jan 20 11:53:15 2005
+        - original version; created by ExtUtils::ModuleMaker 0.32
+        - built test for the simple case.
+        - decided to use Class::Accessor::Chained.
+
+0.02 Thu Jan 20 1:30 2005
+        - added the ability to parse the form "lname, fname mname"
+        - added more tests.
+
+0.03 Fri Jan 21 9:38 2005
+        - added more the docs.
+        - added an as_string method.
+        - added a test for as_string.
+
+0.04 Sat Jan 22 12:00 2005
+	- changed the modules name to Lingua::EN::Parse::PersonsName.
+	- updated the Todo list.
+	- updated the README
+	- changed to Module::Build

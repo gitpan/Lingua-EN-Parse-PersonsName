@@ -1,0 +1,7 @@
+TODO list for Perl module Lingua::EN::Parse::PersonsName
+
+- Change fname to given_name and lname to sur_name.
+- Need to parse Suffixes (Mr/Mrs/Ms/Dr/Rev) and Prefixes (Sr., Junior, III, 3rd, etc.).
+- Maybe have the module guess gender.
+
+

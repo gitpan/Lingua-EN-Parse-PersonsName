@@ -1,0 +1,17 @@
+Standard drill for install.
+
+perl Build.PL
+./Build
+./Build test
+./Build install
+
+Special thanks to Robert Rothenberg for making some helpful suggestions.
+
+This module was called Parse::Name, but after an email from Robert Rothenberg
+I renamed it to Lingua::EN::Parse::PersonsName. Kind of long but more accurate.
+This module is something I've been meaning to do for a long time. I use this
+as more of a delegate in a class to handle English names than an object to be
+used by it's self, but there is nothing wrong with using it that way.
+
+Robert Boone,
+Jan 22, 2005

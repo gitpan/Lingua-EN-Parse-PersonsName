@@ -1,0 +1,13 @@
+Build.PL
+Changes
+lib/Lingua/EN/Parse/PersonsName.pm
+LICENSE
+MANIFEST
+META.yml
+README
+t/001_load.t
+t/002_simple.t
+t/003_last_name_first_simple.t
+t/004_correct_caps_letters.t
+t/005_as_string.t
+Todo
