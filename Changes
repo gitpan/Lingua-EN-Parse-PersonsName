@@ -19,3 +19,6 @@ Revision history for Perl module Lingua::EN::Parse::PersonsName
 	- updated the Todo list.
 	- updated the README
 	- changed to Module::Build
+
+0.05 Sun Jan 23 5:32 2005
+	- Changed error in POD. I still had Parse::Name in the examples.

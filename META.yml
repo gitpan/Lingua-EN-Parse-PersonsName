@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name: Lingua-EN-Parse-PersonsName
-version: 0.04
+version: 0.05
 author: ~
 abstract: A simple parser for english names.
 license: perl
@@ -9,5 +9,5 @@ requires:
 provides:
   Lingua::EN::Parse::PersonsName:
     file: lib/Lingua/EN/Parse/PersonsName.pm
-    version: 0.04
+    version: 0.05
 generated_by: Module::Build version 0.2607

@@ -6,7 +6,7 @@ use warnings;
 use base qw/ Class::Accessor::Chained /;
 __PACKAGE__->mk_accessors(qw/ fname mname lname /);
 
-our $VERSION = 0.04;
+our $VERSION = 0.05;
 
 sub new {
         my $class = shift;
@@ -59,8 +59,8 @@ Lingua::EN::Parse::PersonsName - A simple parser for english names.
 
 =head1 SYNOPSIS
 
-  use Parse::Name
-  my $parser = Parse::Name->new("Robert Lewis Boone");
+  use Lingua::EN::Parse::PersonsName
+  my $parser = Lingua::EN::Parse::PersonsName->new("Robert Lewis Boone");
 
   print $parser->lname;
 
